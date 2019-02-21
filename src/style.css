@@ -1,1 +1,24 @@
-/* Acá va tu código */
+body{
+     background-image:url("https://i.pinimg.com/originals/dc/f7/5d/dcf75df539ae613f88c5fbdb7f5005c8.jpg");
+}
+
+.box {
+    font-family: Courier New;
+    font-size: 50px;
+    background: #FAFAD2;
+    border: 5px inset;
+    text-align: center;
+    }
+
+.inicio {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    }
+
+.boton {
+  font-family: cursive;
+    font-size: 30px;
+   border: 5px double;
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 let palabra='';
-let desplazamiento = 2;
+let desplazamiento;
 let nuevoNumero;
 let nuevaPalabra;
 let ascii;

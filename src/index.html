@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
- <div id="pagina1">
-   <h1 class="box">CIFRADO CESAR</h1>
-
-    <label class="inicio">¡Hola, como esta! Estas preparado para vivir una experiencia increible?  <br/>
-      Ahora ya puedes comunicarte con tus amigos y que nadie sepa que estan tramando. <br/>
-      - Recuerda que solo puedes ingresar letras <br/>
-      - Tu decides cuantos espacios recorrer en el abecedario (¡CUIDADO! esta clave solo la pueden saber tu y tus amigos) <br/>
-      - Y lo mas importante ... asegurate de no estar siendo espiado por alguien <br/>
-
-   <button id="btn" class="boton" >¡EMPECEMOS!</button>
-    </div>
-<br/>
-
-   <div id="pagina2">
-      <h1 class="box1">Escribe la clave </h1>
- <input type="text" id="number">
-   </div>
-    <br/>
-    <br/>
-   <h1 class="box1" id=caja1>Escribe el texto que quieres cifrar o descifrar.</h1>
-   <textarea id="descifrado" placeholder="Escribe tu texto aqui">
+   <head>
+      <meta charset="utf-8">
+      <title>Caesar Cipher</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div id="pagina1">
+         <h1 class="box">CIFRADO CESAR</h1>
+         <label class="inicio">¡Hola, como esta! Estas preparado para vivir una experiencia increible?  <br/>
+         Ahora ya puedes comunicarte con tus amigos y que nadie sepa que estan tramando. <br/>
+         - Recuerda que solo puedes ingresar letras <br/>
+         - Tu decides cuantos espacios recorrer en el abecedario (¡CUIDADO! esta clave solo la pueden saber tu y tus amigos) <br/>
+         - Y lo mas importante ... asegurate de no estar siendo espiado por alguien <br/>
+         <button id="btn" class="boton" >¡EMPECEMOS!</button>
+      </div>
+      <br/>
+      <div id="pagina2">
+         <h1 class="box1">Escribe la clave </h1>
+         <input type="text" id="number">
+      </div>
+      <br/>
+      <br/>
+      <h1 class="box1" id=caja1>Escribe el texto que quieres cifrar o descifrar.</h1>
+      <textarea id="descifrado">
    </textarea>
-   </div>
+      </br>
+      <button id="btncifrar" >CIFRAR</button>
+      </div>
+      </br>
+      </br>
+      </p>
+      <textarea id="cifrado">
+</textarea>
+      </br>
+      <button id="btndescifrar" >DECIFRAR</button>
+      </div>
+      </br>
+      </br>
+      </br>
 
- <div id="options">
-   </br>
-   <button id="option1" class="btn" onclick="functionA()">Cifrar</button>
-   <button id="option2" class="btn" onclick="functionB()">Descifrar</button>
-   </div>
-   </br>
-     </br>
-
-
-<input type="text" value="" id="texto" />
-
-  <div id="again">
-  <button class="botonlimpiar" onclick="myFunction()">Limpiar</button>
-   </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+         <button class="botonlimpiar" onclick="myFunction()">Limpiar</button>
+      </div>
+      <script src="cipher.js"></script>
+      <script src="index.js"></script>
+   </body>

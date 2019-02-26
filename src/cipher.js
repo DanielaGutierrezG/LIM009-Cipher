@@ -1,17 +1,13 @@
-  window.cipher = {
+window.cipher = {
   encode: (textoDescifrado,desplazamiento) => {
-
    let ascii;
-   let nuevoResultadoCifrado;
+   let nuevoResultCifrado;
    let resultadoCifrado=" ";
 
     for(let i = 0 ; i < textoDescifrado.length ; i++){
-      ascii
- =textoDescifrado[i].charCodeAt();
-     if( 65 <= ascii
- <= 90 ){
-      nuevoResultadoCifrado = String.fromCharCode((ascii
- - 65 + desplazamiento) % 26 + 65);
+      asciiDescifrado =textoDescifrado[i].charCodeAt();
+     if( 65 <= asciiDescifrado <= 90 ){
+      nuevoResultadoCifrado = String.fromCharCode((asciiDescifrado - 65 + desplazamiento) % 26 + 65);
      console.log(resultadoCifrado += nuevoResultadoCifrado);
       }
     }
@@ -22,13 +18,13 @@
     let nuevoNumero;
     let nuevoResultadoDescifrado;
     let nuevoNumeroCifrado;
-    let ascii;
+    let asciiCifrado;
     let resultadoDescifrado=" ";
 
    for(let i = 0 ; i < textoCifrado.length ; i++){
-     ascii=textoCifrado[i].charCodeAt();
-       if( 65 <= ascii<=90){
-         nuevoNumero= (ascii-65-desplazamiento);
+     asciiCifrado=textoCifrado[i].charCodeAt();
+       if( 65 <= asciiCifrado<=90){
+         nuevoNumero=(asciiCifrado-65-desplazamiento);
         }  while (nuevoNumero < 0){
           nuevoNumero=nuevoNumero + 26;
           }

@@ -33,17 +33,13 @@ body{
 .botonlimpiar {
   font-family: cursive;
     font-size: 20px;
-   border: 5px double;
+   border: double;
     text-align: center;
-
-
 }
 
-.box2 {
+.box1 {
   font-family: cursive;
     font-size: 20px;
    border: 5px double;
-    text-align: center;
-
-
+  text-align: center;
 }

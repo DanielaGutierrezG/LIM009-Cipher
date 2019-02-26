@@ -1,15 +1,62 @@
-let palabra='';
-let desplazamiento;
-let nuevoNumero;
-let nuevaPalabra;
-let ascii;
-let numFormula;
-let asciiNumero;
+const btn=document.getElementById("btn");
+btn.addEventListener("click",()=>{
+  pagina1.style.display="none";
+  pagina2.style.display="block";
+})
 
-for(let i = 0; i < palabra.length; i++){
- ascii = palabra[i].charCodeAt();
- if (65 <= ascii <= 90) {
- (numFormula = (ascii - 65 + desplazamiento) % 26 + 65);
- }
- console.log(nuevaPalabra = String.fromCharCode(numFormula));
-};
+let textoDescifrado;
+let desplazamiento;
+let textoCifrado;
+
+document.getElementById('botoncifrar').addEventListener("click",()=>{
+  textoDescifrado=document.getElementById('descifrado').value;
+  desplazamiento=parseInt(document.getElementById('number').value);
+  resultadoCifrado=cipher.encode(textoDescifrado,desplazamiento);
+  document.getElementById('cifrado').value= resultadoCifrado;
+})
+
+document.getElementById('botondescifrar').addEventListener("click",()=>{
+  textoCifrado=document.getElementById('cifrado').value;
+  desplazamiento=parseInt(document.getElementById('number').value);
+  resultadoDescifrado=cipher.decode(textoCifrado,desplazamiento);
+  document.getElementById('descifrado').value=resultadoDescifrado;
+
+})
+
+function functionA() {
+
+   let asciiDescifrado;
+   let nuevoResultadoCifrado;
+   let resultadoCifrado=" ";
+
+    for(let i = 0 ; i < textoDescifrado.length ; i++){
+      asciiDescifrado =textoDescifrado[i].charCodeAt();
+     if( 65 <= asciiDescifrado <= 90 ){
+      nuevoResultadoCifrado = String.fromCharCode((asciiDescifrado - 65 + desplazamiento) % 26 + 65);
+     console.log(resultadoCifrado += nuevoResultadoCifrado);
+      }
+    }
+    return resultadoCifrado;
+  }
+
+function functionB() {
+
+    let nuevoNumero;
+    let nuevoResultadoDescifrado;
+    let nuevoNumeroCifrado;
+    let asciiCifrado;
+    let resultadoDescifrado=" ";
+
+   for(let i = 0 ; i < textoCifrado.length ; i++){
+     asciiCifrado=textoCifrado[i].charCodeAt();
+       if( 65 <= asciiCifrado<=90){
+         nuevoNumero=(asciiCifrado-65-desplazamiento);
+        }  while (nuevoNumero < 0){
+          nuevoNumero=nuevoNumero + 26;
+          }
+          nuevoNumeroCifrado=nuevoNumero%26+65
+          console.log(nuevoResultadoDescifrado=String.fromCharCode(nuevoNumeroCifrado))
+          resultadoDescifrado += nuevoResultadoDescifrado;
+     }
+    return resultadoDescifrado;
+  }

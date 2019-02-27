@@ -1,4 +1,4 @@
-# Cifrado César
+# MAGIC WORDS
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -19,7 +19,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 ¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. 
+La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
 
 Algunas ideas de ejemplo:
 
@@ -60,6 +60,7 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
 
 - Quiénes son los principales usuarios de producto.
+pilliyo
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
@@ -221,7 +222,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).

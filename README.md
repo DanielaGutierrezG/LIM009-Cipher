@@ -2,7 +2,7 @@
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
-![caeser-cipher](https://imgbbb.com/image/10aUt)
+![magic-words](https://imgbbb.com/images/2019/02/27/Captura.md.png)
 
 En este juego, los niños podran crifrar y/o descifrar mensajes para divertirse. Pueden elegir los desplazamientos que quieren que se muevan en el alfabeto, esa sera la clave para poder enviarse los mensajes cifrandolos y despues decifrarlos.
 
@@ -13,7 +13,7 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-![caeser-cipher](https://imgbbb.com/image/10nrD)
+![magic-words](https://imgbbb.com/images/2019/02/27/Captura2.md.png)
 
 ## Objetivos de aprendizaje
 

@@ -37,12 +37,16 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 #### Definición del producto
 
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+- ¿Quiénes son los principales usuarios de producto?
 
-- Quiénes son los principales usuarios de producto.
-pilliyo
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Los principales usuarios de "Magic Words" son niños.
+
+- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+
+El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva.
+
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
 
 #### Interfaz de usuario (UI)
 

@@ -1,3 +1,7 @@
+
+ const pagina1 = document.getElementById("pagina1");
+ const pagina2 =document.getElementById("pagina2");
+
 const btn=document.getElementById('btn');
 btn.addEventListener("click",()=>{
 
@@ -8,6 +12,8 @@ btn.addEventListener("click",()=>{
 let textoDescifrado;
 let desplazamiento;
 let textoCifrado;
+let resultadoCifrado;
+let resultadoDescifrado;
 
 document.getElementById('btncifrar').addEventListener("click",()=>{
   textoDescifrado=document.getElementById('descifrado').value;
@@ -26,22 +32,21 @@ document.getElementById('btndescifrar').addEventListener("click",()=>{
 
 window.cipher = {
   encode: (textoDescifrado,desplazamiento) => {
-   let ascii;
-   let nuevoResultCifrado;
+    let asciiDescifrado;
    let resultadoCifrado=" ";
+   let nuevoResultadoCifrado;
 
-    for(let i = 0 ; i < textoDescifrado.length ; i++){
+   for(let i = 0 ; i < textoDescifrado.length ; i++){
       asciiDescifrado =textoDescifrado[i].charCodeAt();
      if( 65 <= asciiDescifrado <= 90 ){
       nuevoResultadoCifrado = String.fromCharCode((asciiDescifrado - 65 + desplazamiento) % 26 + 65);
-     console.log(resultadoCifrado += nuevoResultadoCifrado);
+     resultadoCifrado += nuevoResultadoCifrado;
       }
     }
     return resultadoCifrado;
   },
 
   decode: (textoCifrado,desplazamiento) => {
-    /* Acá va tu código */
     let nuevoNumero;
     let nuevoResultadoDescifrado;
     let nuevoNumeroCifrado;
@@ -50,13 +55,14 @@ window.cipher = {
 
    for(let i = 0 ; i < textoCifrado.length ; i++){
      asciiCifrado=textoCifrado[i].charCodeAt();
-       if( 65 <= asciiCifrado<=90){
+      // if( 65 <= asciiCifrado<=90){
          nuevoNumero=(asciiCifrado-65-desplazamiento);
-        }  while (nuevoNumero < 0){
+       // } 
+        while (nuevoNumero < 0){
           nuevoNumero=nuevoNumero + 26;
           }
           nuevoNumeroCifrado=nuevoNumero%26+65
-          console.log(nuevoResultadoDescifrado=String.fromCharCode(nuevoNumeroCifrado))
+          nuevoResultadoDescifrado=String.fromCharCode(nuevoNumeroCifrado)
           resultadoDescifrado += nuevoResultadoDescifrado;
      }
     return resultadoDescifrado;

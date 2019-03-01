@@ -37,20 +37,16 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 #### Definición del producto
 
-- ¿Quiénes son los principales usuarios de producto?
-
+<ul>
+<li>¿Quiénes son los principales usuarios de producto?</li>
 <ul>
 <li>Los principales usuarios de "Magic Words" son niños, y personas en general que deseen cifrar o descifrar mensajes.</li>
 </ul>
-
-- ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
-
+<li>¿Cuáles son los objetivos de estos usuarios en relación con tu producto?</li>
 <ul>
 <li>El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva.</li>
 </ul>
-
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
-
+<li>Cómo crees que el producto que estás creando está resolviendo sus problemas.</li>
 <ul>
 <li>Las personas que son nuestros usuarios tienen la facilidad de comunicarse de forma confidencial en todo momento.</li>
 </ul>

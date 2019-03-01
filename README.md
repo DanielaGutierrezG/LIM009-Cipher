@@ -39,13 +39,14 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 - ¿Quiénes son los principales usuarios de producto?
 
-Los principales usuarios de "Magic Words" son niños.
+"Los principales usuarios de "Magic Words" son niños, y personas en general que deseen cifrar o descifrar mensajes."
 
 - ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
-El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva.
+"El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva."
 
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
+"Las personas que son nuestros usuarios tienen la facilidad de comunicarse de forma confidencial en todo momento"
 
 
 #### Interfaz de usuario (UI)

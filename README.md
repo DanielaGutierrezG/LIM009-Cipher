@@ -1,4 +1,5 @@
-# MAGIC WORDS
+|# MAGIC WORDS|
+|-------------|
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -42,10 +43,12 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 <ul>
 <li>Los principales usuarios de "Magic Words" son niños, y personas en general que deseen cifrar o descifrar mensajes.</li>
 </ul>
+
 <li>¿Cuáles son los objetivos de estos usuarios en relación con tu producto?</li>
 <ul>
 <li>El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva.</li>
 </ul>
+
 <li>Cómo crees que el producto que estás creando está resolviendo sus problemas.</li>
 <ul>
 <li>Las personas que son nuestros usuarios tienen la facilidad de comunicarse de forma confidencial en todo momento.</li>

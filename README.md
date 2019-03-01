@@ -39,15 +39,21 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 - ¿Quiénes son los principales usuarios de producto?
 
-"Los principales usuarios de "Magic Words" son niños, y personas en general que deseen cifrar o descifrar mensajes."
+<ul>
+<li>Los principales usuarios de "Magic Words" son niños, y personas en general que deseen cifrar o descifrar mensajes.</li>
+</ul>
 
 - ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 
-"El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva."
+<ul>
+<li>El principal objetivo del usuario es poder cifrar y/o descifrar mensajes y usarlos como un medio de comunicacion. Asimismo tener un producto que les permita hacerlo de manera facil e interactiva.</li>
+</ul>
 
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
-"Las personas que son nuestros usuarios tienen la facilidad de comunicarse de forma confidencial en todo momento"
 
+<ul>
+<li>Las personas que son nuestros usuarios tienen la facilidad de comunicarse de forma confidencial en todo momento.</li>
+</ul>
 
 #### Interfaz de usuario (UI)
 
@@ -79,7 +85,7 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## Parte opcional o “Hacker edition”
+### Parte opcional o “Hacker edition”
 
 Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
@@ -87,7 +93,7 @@ La descripción general de este proyecto no menciona qué pasaría con las letra
 
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## Vamos a los detalles. Consideraciones Técnicas
+### Vamos a los detalles. Consideraciones Técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 En este proyecto NO está permitido usar librerías o frameworks, sólo
@@ -138,7 +144,7 @@ entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
-## Evaluación
+### Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
 para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es una lista de todas las habilidades involucradas en este proyecto y que evaluaremos cuando lo  completes:
@@ -193,7 +199,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 
 ***
 
-## Pistas sobre cómo comenzar a trabajar en el proyecto
+### Pistas sobre cómo comenzar a trabajar en el proyecto
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
@@ -218,7 +224,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    pruebas unitarias (unit tests) con el comando `npm test`.
 7. A codear se ha dicho! :rocket:
 
-## Recursos y temas relacionados
+### Recursos y temas relacionados
 
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
@@ -248,10 +254,6 @@ Herramientas:
 
 - [GitHub y GitHub Pages](https://guides.github.com/)
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
-
-## Checklist
-
-Esta sección está  para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
 

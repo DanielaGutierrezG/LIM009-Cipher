@@ -57,27 +57,27 @@ Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 La interfaz debe permitir al usuario:
 
-- Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
+- Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter
 
 ![magic-words](https://imgbbb.com/images/2019/03/04/offset.md.png)
 
 
-- Insertar un mensaje (texto) que queremos cifrar.
+- Insertar un mensaje (texto) que queremos cifrar
 
 ![magic-words](https://imgbbb.com/images/2019/03/04/Captura.png)
 
 
-- Ver el resultado del mensaje cifrado.
+- Ver el resultado del mensaje cifrado
 
 ![magic-words](https://imgbbb.com/images/2019/03/04/des.png)
 
 
-- Insertar un mensaje (texto) a descifrar.
+- Insertar un mensaje (texto) a descifrar
 
 ![magic-words](https://imgbbb.com/images/2019/03/04/des.png)
 
 
-- Ver el resultado del mensaje descifrado.
+- Ver el resultado del mensaje descifrado
 
 ![magic-words](https://imgbbb.com/images/2019/03/04/Captura.png)
 

@@ -13,7 +13,6 @@ let desplazamiento;
 let textoCifrado ;
 let textoDescifrar;
 let textoDescifrado;
-let textoCifrar;
 
 
 document.getElementById('btncifrar').addEventListener("click",()=>{

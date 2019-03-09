@@ -10,7 +10,8 @@ window.cipher = {
 
      if( 65 <= asciiTextoCifrar <= 90 ){
       textoCifrado += String.fromCharCode((asciiTextoCifrar - 65 + desplazamiento) % 26 + 65);
-    }else if( 97 <= asciiTextoCifrar <= 122 ){
+    }
+   else if( 97 <= asciiTextoCifrar <= 122 ){
     textoCifrado += String.fromCharCode((asciiTextoCifrar - 97 + desplazamiento) % 26 + 97);
     }
   }
@@ -30,10 +31,11 @@ window.cipher = {
 
      if( 65 <= asciiTextoDescifrar <= 90 ){
       textoDescifrado += String.fromCharCode((asciiTextoDescifrar + 65 - desplazamiento) % 26 + 65);
-      }else if( 97 <= asciiTextoDescifrar <= 122 ){
+      }
+      else if( 97 <= asciiTextoDescifrar <= 122 ){
       textoDescifrado += String.fromCharCode((asciiTextoDescifrar + 33 - desplazamiento) % 26 + 97);
       }
 }
     return textoDescifrado;
   }
-};
+  };

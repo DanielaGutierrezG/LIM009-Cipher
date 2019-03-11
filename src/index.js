@@ -2,6 +2,7 @@
  const pagina1 = document.getElementById("pagina1");
  const pagina2 =document.getElementById("pagina2");
 
+ pagina2.style.display="none";
 const btn=document.getElementById('btn');
 btn.addEventListener("click",()=>{
 

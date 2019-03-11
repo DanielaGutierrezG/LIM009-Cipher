@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar cipher </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/4.1.0/mocha.min.css" />
-  </head>
-  <body>
-    <div id="mocha"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/4.1.0/mocha.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.1.2/chai.min.js"></script>
-    <script src="../src/cipher.js"></script>
-    <script>
-      const { assert } = chai;
-      mocha.setup('bdd');
-    </script>
-    <script src="./cipher.spec.js"></script>
-    <script>
-      mocha.checkLeaks();
-      mocha.run();
-    </script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="pagina1">
+    <h1 class="box">MAGIC WORDS</h1>
+    <label class="inicio">¡Hola, como esta! Estas preparado para vivir una experiencia increible? <br />
+      Ahora ya puedes comunicarte con tus amigos y que nadie sepa que estan tramando. <br />
+      - Recuerda que solo puedes ingresar letras <br />
+      - Tu decides cuantos espacios recorrer en el abecedario (¡CUIDADO! esta clave solo la pueden saber tu y tus
+      amigos) <br />
+      - Y lo mas importante ... asegurate de no estar siendo espiado por alguien <br />
+      <button id="btn" class="boton">¡EMPECEMOS!</button>
+    </label>
+  </div>
+  <br />
+  <div id="pagina2" class="none">
+    <h1 class="box1">Escribe la clave </h1>
+    <input type="text" id="number">
+    <br />
+    <br />
+    <h1 class="box1" id="caja1">Escribe el texto que quieres cifrar o descifrar.</h1>
+    <textarea id="descifrado"></textarea> <br />
+    <button id="btncifrar" class="botones">CIFRAR</button>
+    <br />
+    <br />
+    <textarea id="cifrado"></textarea>
+    <br />
+    <button id="btndescifrar" class="botones">DECIFRAR</button>
+    <br />
+    <br />
+    <br />
+
+    <input value="Limpiar" onclick="history.go(0)" type="button" class="botones">
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

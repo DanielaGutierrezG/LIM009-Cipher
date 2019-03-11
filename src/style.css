@@ -1,60 +1,64 @@
 body{
-     background-image:url("https://previews.123rf.com/images/betelgejze/betelgejze1607/betelgejze160700095/60191143-mod%C3%A8le-sans-vecteur-avec-l-alphabet-croquis-%C3%A0-la-main-des-lettres-ray%C3%A9es-et-%C3%A9claboussantes-conception-pou.jpg");
+  background-image:url("https://previews.123rf.com/images/betelgejze/betelgejze1607/betelgejze160700095/60191143-mod%C3%A8le-sans-vecteur-avec-l-alphabet-croquis-%C3%A0-la-main-des-lettres-ray%C3%A9es-et-%C3%A9claboussantes-conception-pou.jpg");
 }
 
 .box {
-    font-family: Courier New;
-    font-size: 80px;
-    background: #800080;
-    border: 5px inset;
-    text-align: center;
-    }
+ font-family: Courier New;
+ font-size: 80px;
+ background: #800080;
+ border: 5px inset;
+ text-align: center;
+ }
 
 .inicio {
-    font-family: cursive;
-    font-size: 60px;
-    text-align: center;
-    }
+ font-family: cursive;
+ font-size: 60px;
+ text-align: center;
+ }
 
 .boton {
-  font-family: cursive;
-    font-size: 30px;
-   border: 5px double;
-    text-align: center;
+font-family: cursive;
+ font-size: 30px;
+border: 5px double;
+ text-align: center;
 }
 
 .btn {
-  font-family: cursive;
-    font-size: 20px;
-   border: 5px double;
-    text-align: center;
+font-family: cursive;
+ font-size: 20px;
+border: 5px double;
+ text-align: center;
 }
 
 .botones {
-  font-family: cursive;
-    font-size: 20px;
-   border: double;
-    text-align: center;
+font-family: cursive;
+ font-size: 20px;
+border: double;
+ text-align: center;
 
 }
 
 .box1 {
-  font-family: cursive;
-    font-size: 40px;
-   border: 5px double;
-  text-align: center;
+font-family: cursive;
+ font-size: 40px;
+border: 5px double;
+text-align: center;
 
 }
 
 textarea {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 .botones {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.none{
+display:none;
 
 }

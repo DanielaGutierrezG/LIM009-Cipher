@@ -6,7 +6,7 @@
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
-      <div id="pagina1">
+      <div id="pagina1" >
          <h1 class="box">MAGIC WORDS</h1>
          <label class="inicio">¡Hola, como esta! Estas preparado para vivir una experiencia increible?  <br/>
          Ahora ya puedes comunicarte con tus amigos y que nadie sepa que estan tramando. <br/>
@@ -17,20 +17,17 @@
          </label>
          </div>
       <br/>
-      <div id="pagina2">
+      <div id="pagina2" class="none">
          <h1 class="box1">Escribe la clave </h1>
          <input type="text" id="number">
-      </div>
       <br/>
       <br/>
       <h1 class="box1" id="caja1">Escribe el texto que quieres cifrar o descifrar.</h1>
-      <textarea id="descifrado">
-   </textarea> <br/>
+      <textarea id="descifrado"></textarea> <br/>
       <button id="btncifrar" class="botones" >CIFRAR</button>
       <br/>
       <br/>
-      <textarea id="cifrado">
-</textarea>
+      <textarea id="cifrado"></textarea>
       <br/>
       <button id="btndescifrar" class="botones" >DECIFRAR</button>
       <br/>
@@ -38,12 +35,9 @@
       <br/>
 
       <input value="Limpiar" onclick="history.go(0)" type="button" class="botones">
-
-      <script src="cipher.js"></script>
-      <script src="index.js"></script>
-
-      
+      </div>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
    </body>
    </html>
-
 
